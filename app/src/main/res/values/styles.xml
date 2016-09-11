@@ -1,0 +1,52 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/alizarin</item>
+        <item name="colorPrimaryDark">@color/silver</item>
+        <item name="colorAccent">@color/alizarin</item>
+    </style>
+
+    
+    
+    <!-- Action Bar Style -->
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/alizarin</item>
+        <item name="android:backgroundStacked">@color/silver</item>
+        <item name="android:backgroundSplit">@color/alizarin</item>
+    </style>
+    
+    <!--Contacts Action Bar Style -->
+    <style name="ContactsActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/sneharagam</item>
+        <item name="android:backgroundSplit">@color/turqoise</item>
+    </style>
+    
+    <!--Tutorial Action Bar Style -->
+    <style name="TutorialActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/silver</item>
+        <item name="android:backgroundSplit">@color/silver</item>
+         <item name="android:backgroundStacked">@color/silver</item>
+    </style>
+    
+    <!--transparent theeme for alert -->
+    <style name="Theme.Transparent" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+    <!--transparent theme for tabs -->
+    <style name="Theme.TabTransparent" parent="android:Theme">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+</resources>
